@@ -1,3 +1,4 @@
 <?php
-@print "<H1>HOLA {@argv[1]}\n</H1>";
+$name = isset($argv[1]) ? $argv[1] : "MUNDO";
+@print "<H1>HOLA {$name}\n</H1>";
 ?>
